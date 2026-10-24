@@ -1,5 +1,6 @@
 #pragma once
 
+#include "core/I18n.h"
 #include "core/Theme.h"
 #include "core/TlsConfig.h"
 
@@ -15,6 +16,10 @@ struct AppearanceSettings {
     ThemePalette customPalette = ThemePalette::customDefault();
     QString iconPack = QStringLiteral("lucide");
     bool minimalistUi = false;
+};
+
+struct LanguageSettings {
+    I18n::AppLanguage language = I18n::AppLanguage::System;
 };
 
 struct UpdateSettings {
@@ -79,6 +84,9 @@ struct SupportSettings {
 class AppSettings final {
 public:
     AppSettings();
+
+    LanguageSettings loadLanguage() const;
+    void saveLanguage(const LanguageSettings &language);
 
     AppearanceSettings loadAppearance() const;
     void saveAppearance(const AppearanceSettings &appearance);

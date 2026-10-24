@@ -69,6 +69,22 @@ AppSettings::AppSettings()
 {
 }
 
+LanguageSettings AppSettings::loadLanguage() const
+{
+    LanguageSettings result;
+    result.language = I18n::languageFromKey(
+        m_settings.value(QStringLiteral("appearance/language"),
+                         QStringLiteral("system")).toString());
+    return result;
+}
+
+void AppSettings::saveLanguage(const LanguageSettings &language)
+{
+    m_settings.setValue(QStringLiteral("appearance/language"),
+                        I18n::languageKey(language.language));
+    m_settings.sync();
+}
+
 AppearanceSettings AppSettings::loadAppearance() const
 {
     AppearanceSettings result;
