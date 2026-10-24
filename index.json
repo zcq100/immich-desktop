@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "sourceRevision": "3543918aecef1a32a51286db8d29c262ac38d958",
+  "catalogs": {
+    "de": {
+      "sha256": "6aec096183cd30419d7a817c26c756d554e3af1d6bfed256f2d096b67b889ba9",
+      "size": 16551
+    },
+    "en": {
+      "sha256": "bfafdae59289fcd25c98417e0648b74c5fe2a282df0f1d21f1161324bad52d7c",
+      "size": 77406
+    },
+    "fr": {
+      "sha256": "cecbfb36aa6d4693d7b6fcfa93c60e422bf195d1dea60378f5306eb6dcfd52f6",
+      "size": 16769
+    },
+    "pl": {
+      "sha256": "8ea74e6758e9b06e14ed11e64f44d90d4f7963c820a9fe367259363b1bb0398b",
+      "size": 84917
+    }
+  }
+}
