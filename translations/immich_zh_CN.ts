@@ -60,6 +60,7 @@
     </message>
     <message>
         <location filename="../src/ui/pages/AboutPage.cpp" line="187"/>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="217"/>
         <source>Discord: diegosanche3</source>
         <translation>Discord：diegosanche3</translation>
     </message>

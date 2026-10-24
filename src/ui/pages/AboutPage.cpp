@@ -214,7 +214,7 @@ AboutPage::AboutPage(QWidget *parent)
         btnRow->addStretch();
         l->addLayout(btnRow);
 
-        l->addWidget(monoLabel(QStringLiteral("Discord handle: diegosanche3"), c));
+        l->addWidget(monoLabel(tr("Discord: diegosanche3"), c));
         contentLayout->addWidget(c);
     }
 

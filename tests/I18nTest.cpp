@@ -72,6 +72,7 @@ void I18nTest::systemModePreservesSystemLocale()
 
 void I18nTest::explicitLanguageOverridesLocale()
 {
+    const QLocale original = QLocale();
     QLocale::setDefault(QLocale(QStringLiteral("de_DE")));
     Aurora::I18n::installTranslators(AppLanguage::English);
     // Qt resolves the bare "en" locale to en_US, so assert the language rather
@@ -80,7 +81,7 @@ void I18nTest::explicitLanguageOverridesLocale()
 
     Aurora::I18n::installTranslators(AppLanguage::SimplifiedChinese);
     QCOMPARE(QLocale().name(), QStringLiteral("zh_CN"));
-    QLocale::setDefault(QLocale());
+    QLocale::setDefault(original);
 }
 
 QTEST_GUILESS_MAIN(I18nTest)
