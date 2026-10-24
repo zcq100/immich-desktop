@@ -2709,4 +2709,38 @@ immich desktop  ·  %1</translation>
         <translation>媒体文件 (*.jpg *.jpeg *.png *.gif *.webp *.heic *.heif *.tif *.tiff *.bmp *.raw *.dng *.cr2 *.nef *.arw *.mp4 *.mov *.m4v *.avi *.mkv *.webm *.3gp);;所有文件 (*.*)</translation>
     </message>
 </context>
+<context>
+    <name>TlsConfig</name>
+    <message>
+        <location filename="../src/core/TlsConfig.cpp" line="25"/>
+        <location filename="../src/core/TlsConfig.cpp" line="45"/>
+        <source>Could not open %1: %2</source>
+        <translation>无法打开 %1：%2</translation>
+    </message>
+    <message>
+        <location filename="../src/core/TlsConfig.cpp" line="37"/>
+        <source>A password is required to open the PKCS#12 bundle.</source>
+        <translation>打开 PKCS#12 证书包需要密码。</translation>
+    </message>
+    <message>
+        <location filename="../src/core/TlsConfig.cpp" line="55"/>
+        <source>Could not read the PKCS#12 bundle. The password may be wrong, or the file is not a valid bundle.</source>
+        <translation>无法读取 PKCS#12 证书包。密码可能不正确，或文件不是有效的证书包。</translation>
+    </message>
+    <message>
+        <location filename="../src/core/TlsConfig.cpp" line="81"/>
+        <source>Could not read a client certificate from %1.</source>
+        <translation>无法从 %1 读取客户端证书。</translation>
+    </message>
+    <message>
+        <location filename="../src/core/TlsConfig.cpp" line="98"/>
+        <source>Could not read the private key from %1. The key may be encrypted and need a password, or the password is wrong.</source>
+        <translation>无法从 %1 读取私钥。密钥可能已加密且需要密码，或密码不正确。</translation>
+    </message>
+    <message>
+        <location filename="../src/core/TlsConfig.cpp" line="142"/>
+        <source>Could not read a CA certificate from %1 (tried PEM and DER).</source>
+        <translation>无法从 %1 读取 CA 证书（已尝试 PEM 和 DER 格式）。</translation>
+    </message>
+</context>
 </TS>
