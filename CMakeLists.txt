@@ -185,29 +185,33 @@ endif()
 
 set(IMMICH_TRANSLATIONS_DIR "${CMAKE_CURRENT_SOURCE_DIR}/translations")
 set(IMMICH_QM_DIR "${CMAKE_CURRENT_BINARY_DIR}/i18n")
+set(IMMICH_QM_FILE "${IMMICH_QM_DIR}/immich_zh_CN.qm")
 
-qt_add_lrelease(
-    TS_FILES "${IMMICH_TRANSLATIONS_DIR}/immich_zh_CN.ts"
-    QM_OUTPUT_DIRECTORY "${IMMICH_QM_DIR}"
-    QM_FILES_OUTPUT_VARIABLE IMMICH_QM_FILES
-    LRELEASE_TARGET immich_lrelease
-    NO_GLOBAL_TARGET
+add_custom_command(
+    OUTPUT "${IMMICH_QM_FILE}"
+    COMMAND "${CMAKE_COMMAND}" -E make_directory "${IMMICH_QM_DIR}"
+    COMMAND Qt6::lrelease "${IMMICH_TRANSLATIONS_DIR}/immich_zh_CN.ts"
+            -qm "${IMMICH_QM_FILE}"
+    DEPENDS Qt6::lrelease "${IMMICH_TRANSLATIONS_DIR}/immich_zh_CN.ts"
+    COMMENT "Compiling translation immich_zh_CN.qm"
+    VERBATIM
 )
+set_source_files_properties("${IMMICH_QM_FILE}" PROPERTIES GENERATED TRUE)
+
+add_custom_target(immich_lrelease DEPENDS "${IMMICH_QM_FILE}")
 
 qt_add_resources(immich "immich_translations"
     PREFIX "/i18n"
     BASE "${IMMICH_QM_DIR}"
-    FILES ${IMMICH_QM_FILES}
-    OUTPUT_TARGETS IMMICH_TRANSLATIONS_TARGET
+    FILES "${IMMICH_QM_FILE}"
 )
-add_dependencies(${IMMICH_TRANSLATIONS_TARGET} immich_lrelease)
 
-qt_add_lupdate(
-    SOURCE_TARGETS immich
-    TS_FILES "${IMMICH_TRANSLATIONS_DIR}/immich_zh_CN.ts"
-    LUPDATE_TARGET update_translations
-    OPTIONS -target-language zh_CN
-    NO_GLOBAL_TARGET
+add_custom_target(update_translations
+    COMMAND Qt6::lupdate -locations absolute -target-language zh_CN
+            "${CMAKE_CURRENT_SOURCE_DIR}/src"
+            -ts "${IMMICH_TRANSLATIONS_DIR}/immich_zh_CN.ts"
+    COMMENT "Updating translations"
+    VERBATIM
 )
 
 set_target_properties(immich PROPERTIES OUTPUT_NAME "${IMMICH_EXECUTABLE_NAME}")
