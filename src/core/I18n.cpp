@@ -68,7 +68,11 @@ QString displayName(AppLanguage language)
 QString installTranslators(AppLanguage language)
 {
     const QString localeName = resolveLocaleName(language);
-    QLocale::setDefault(QLocale(localeName));
+    // Following the system language must not clobber the user's formatting
+    // locale: on e.g. a German system there is no German translation, so the
+    // resolved name is "en", but dates and numbers should stay German.
+    if (language != AppLanguage::System)
+        QLocale::setDefault(QLocale(localeName));
     if (localeName == QStringLiteral("en"))
         return localeName;
 

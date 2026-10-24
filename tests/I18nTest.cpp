@@ -1,6 +1,7 @@
 #include "core/I18n.h"
 
 #include <QCoreApplication>
+#include <QLocale>
 #include <QtTest>
 
 using Aurora::I18n::AppLanguage;
@@ -14,6 +15,8 @@ private slots:
     void languageKeysRoundTrip();
     void unknownKeyFallsBackToSystem();
     void displayNames();
+    void systemModePreservesSystemLocale();
+    void explicitLanguageOverridesLocale();
 
 private:
     static bool isSupportedLocale(const QString &name)
@@ -56,6 +59,28 @@ void I18nTest::displayNames()
     QCOMPARE(Aurora::I18n::displayName(AppLanguage::SimplifiedChinese),
              QString::fromUtf8("简体中文"));
     QVERIFY(!Aurora::I18n::displayName(AppLanguage::System).isEmpty());
+}
+
+void I18nTest::systemModePreservesSystemLocale()
+{
+    const QLocale original = QLocale();
+    QLocale::setDefault(QLocale(QStringLiteral("de_DE")));
+    Aurora::I18n::installTranslators(AppLanguage::System);
+    QCOMPARE(QLocale().name(), QStringLiteral("de_DE"));
+    QLocale::setDefault(original);
+}
+
+void I18nTest::explicitLanguageOverridesLocale()
+{
+    QLocale::setDefault(QLocale(QStringLiteral("de_DE")));
+    Aurora::I18n::installTranslators(AppLanguage::English);
+    // Qt resolves the bare "en" locale to en_US, so assert the language rather
+    // than the territorial name.
+    QCOMPARE(QLocale().language(), QLocale::English);
+
+    Aurora::I18n::installTranslators(AppLanguage::SimplifiedChinese);
+    QCOMPARE(QLocale().name(), QStringLiteral("zh_CN"));
+    QLocale::setDefault(QLocale());
 }
 
 QTEST_GUILESS_MAIN(I18nTest)
