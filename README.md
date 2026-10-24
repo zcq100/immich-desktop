@@ -41,6 +41,7 @@
 - **Video streaming** - built-in player with seek, volume, buffering, and muted hover preview
 - **mTLS** - optional client certificate (PKCS#12 or PEM) for Immich behind a reverse proxy
 - **Offline mode** - keep browsing with a local thumbnail/disk cache; uploads queue until online
+- **Languages** - English and Simplified Chinese; follows the system language by default and can be changed in Settings → Appearance (restart required)
 - **Themes** - light, dark, and custom palettes; collapsible sidebar
 - **Desktop extras** - system tray, close-to-tray, autostart, single-instance
 
@@ -147,8 +148,10 @@ Ways to help right now: bug fixes, UX polish, Immich API coverage (albums, shari
 
 ## Building from source
 
-Requires CMake 3.21+ and Qt 6.2+ (Core, Gui, Widgets, Network, Svg, Multimedia). Install
-`qt6-imageformats` (or your distro's equivalent) at runtime so WebP thumbnails can be decoded.
+Requires CMake 3.21+ and Qt 6.2+ (Core, Gui, Widgets, Network, Svg, Multimedia, LinguistTools).
+The Linguist tools (`lupdate` / `lrelease`) are needed to compile the bundled translations:
+`qt6-tools-dev qt6-l10n-tools qt6-tools-dev-tools` on Debian/Ubuntu or `qt6-tools` on Arch Linux.
+Install `qt6-imageformats` (or your distro's equivalent) at runtime so WebP thumbnails can be decoded.
 
 ```bash
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release

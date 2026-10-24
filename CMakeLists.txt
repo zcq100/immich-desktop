@@ -175,7 +175,6 @@ if(WIN32)
 
     add_custom_command(TARGET immich POST_BUILD
         COMMAND "${WINDEPLOYQT_EXECUTABLE}"
-            --no-translations
             --compiler-runtime
             "$<TARGET_FILE:immich>"
         COMMENT "Deploying Qt runtime libraries"
