@@ -1,0 +1,2521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="zh_CN">
+<context>
+    <name>Aurora::AboutPage</name>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="73"/>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="76"/>
+        <source>Unofficial, fan-made desktop client for your self-hosted Immich library.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="97"/>
+        <source>What is this?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="99"/>
+        <source>immich desktop is an unofficial, fan-made desktop app for &lt;a href=&quot;https://immich.app&quot;&gt;Immich&lt;/a&gt; , the self-hosted photo and video manager. It connects to your own Immich server via an API key and lets you browse your timeline, search, explore people &amp;amp; places, upload/download, stream video, and keep browsing offline through a local thumbnail cache and queued uploads. It is not affiliated with, maintained by, or endorsed by the official Immich project.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="112"/>
+        <source>Who makes it?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="114"/>
+        <source>Built and maintained by the Immich Desktop community, led by &lt;a href=&quot;https://github.com/hdmain&quot;&gt;hdmain&lt;/a&gt;. Major contributor: &lt;a href=&quot;https://github.com/gardar&quot;&gt;gardar&lt;/a&gt; (viewer navigation, zoomable grids, collapsible sidebar, info panel, and more). Contributions, bug reports, and ideas are welcome on GitHub.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="128"/>
+        <source>&lt;a href=&quot;https://github.com/%1&quot;&gt;github.com/%1&lt;/a&gt; · &lt;a href=&quot;https://github.com/%1/issues&quot;&gt;Issues&lt;/a&gt; · &lt;a href=&quot;https://github.com/%1/releases&quot;&gt;Releases&lt;/a&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="139"/>
+        <source>Tech stack</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="141"/>
+        <source>Everything this build is made with , frameworks, packaging, and key libraries:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="178"/>
+        <source>Get in touch &amp; collaborate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="180"/>
+        <source>Want to build this together, report a bug, or propose a feature? Reach out on GitHub or Discord , contributions of all sizes are welcome.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="187"/>
+        <source>Discord: diegosanche3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="190"/>
+        <source>Copy Discord handle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="200"/>
+        <source>Open GitHub</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="224"/>
+        <source>Version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="228"/>
+        <source>v%1 (Snap %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="232"/>
+        <source>Licensed under MIT. See LICENSE.txt. Immich is a trademark of its owners; this app is an independent project and does not redistribute official Immich branding.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::AppearancePage</name>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="89"/>
+        <source>Close to system tray</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="90"/>
+        <source>Start immich when I sign in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="127"/>
+        <source>Icons and interface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="128"/>
+        <source>Choose an icon pack and simplify action buttons. Changes are applied immediately and saved automatically.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="130"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="133"/>
+        <source>Icon pack</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="135"/>
+        <source>Lucide (default)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="136"/>
+        <source>Tabler</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="137"/>
+        <source>Bootstrap Icons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="141"/>
+        <source>Preview: upload, library, settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="143"/>
+        <source>Minimalist UI (icons instead of button labels)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="147"/>
+        <source>Navigation and action buttons use icons. Hover over an icon to see its action.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="179"/>
+        <source>Desktop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="180"/>
+        <source>Control how immich behaves on your desktop and at sign-in.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="188"/>
+        <source>Closing the window keeps immich running in the tray. Press Ctrl+Q to quit.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="189"/>
+        <source>System tray is not available on this desktop.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="192"/>
+        <source>Autostart is not supported on this platform.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="199"/>
+        <source>Playback</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="200"/>
+        <source>Control preview and playback behavior.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="202"/>
+        <source>Enable video hover preview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="205"/>
+        <source>Plays a short muted clip when you hover a video tile. Disable this if hovering causes freezes or stutter.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="216"/>
+        <source>Note: the Snap build runs confined, so hover preview is disabled in the Snap. If video playback doesn&apos;t work from the Snap, install the GitHub release (&lt;a href=&quot;https://github.com/hdmain/immich-desktop/releases&quot;&gt;.deb / AppImage&lt;/a&gt;) , it uses your system&apos;s GStreamer/FFmpeg without confinement.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="225"/>
+        <source>Hover preview is unavailable in the Snap build.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="231"/>
+        <source>Timeline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="232"/>
+        <source>Choose how your library is laid out.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="234"/>
+        <source>Compact grid (no date headers)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="237"/>
+        <source>Uniform square thumbnails packed edge to edge, like a phone&apos;s photo grid, instead of date-grouped rows of varying sizes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="248"/>
+        <source>Cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="249"/>
+        <source>Local storage used for thumbnails and offline library data.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="253"/>
+        <source>Refresh</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="297"/>
+        <source>Cache size: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="314"/>
+        <source>Autostart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="316"/>
+        <source>Could not update autostart settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::AssetInfoPanel</name>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="53"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="59"/>
+        <source>Hide info (I)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="96"/>
+        <source>Details unavailable
+%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="107"/>
+        <source>Albums need the album.read permission</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="108"/>
+        <source>Albums unavailable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="146"/>
+        <source>Loading details…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="171"/>
+        <source>Show photos from this day</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="176"/>
+        <source>Date taken</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="186"/>
+        <source>%1 MP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="194"/>
+        <source>File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="204"/>
+        <source>Camera</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="215"/>
+        <source>Show photos from %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="227"/>
+        <source>Map coming soon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="233"/>
+        <source>Location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="237"/>
+        <source>Shared by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="238"/>
+        <source>Shared by %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="242"/>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="281"/>
+        <source>People</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="243"/>
+        <source>No people recognized</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="255"/>
+        <source>Show photos of %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="256"/>
+        <source>this person</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="265"/>
+        <source>Unnamed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="284"/>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="285"/>
+        <source>No description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="289"/>
+        <source>Loading albums…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="290"/>
+        <source>Albums</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="296"/>
+        <source>Tags</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="297"/>
+        <source>No tags</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="303"/>
+        <source>Folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/AssetInfoPanel.cpp" line="311"/>
+        <source>Not in any album</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::ColorButton</name>
+    <message>
+        <location filename="../src/ui/widgets/ColorButton.cpp" line="56"/>
+        <source>Choose %1 color</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::ConnectionPage</name>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="31"/>
+        <source>Enable client certificate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="35"/>
+        <source>Client key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="38"/>
+        <source>Remember password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="40"/>
+        <source>Save &amp; test connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="62"/>
+        <source>Immich server</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="65"/>
+        <source>Connect this desktop client to your Immich instance. The API key needs user.read, asset.read, asset.view, asset.upload, asset.download, asset.delete, and person.read permissions; album.read is optional and lists a photo&apos;s albums. An optional local URL is preferred automatically when reachable.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="80"/>
+        <source>Optional - e.g. http://192.168.1.10:2283</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="83"/>
+        <source>Paste an Immich API key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="88"/>
+        <source>PKCS#12 (.p12/.pfx)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="89"/>
+        <source>PEM certificate + key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="102"/>
+        <source>PEM files (*.pem *.crt *.cer *.key)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="111"/>
+        <source>Browse…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="125"/>
+        <source>Select client certificate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="127"/>
+        <source>PKCS#12 bundles (*.p12 *.pfx)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="130"/>
+        <source>Select client key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="132"/>
+        <source>Select CA certificate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="139"/>
+        <source>Immich URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="140"/>
+        <source>Local URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="141"/>
+        <source>API Key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="149"/>
+        <source>Format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="150"/>
+        <source>Client cert</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="152"/>
+        <source>Server CA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="154"/>
+        <source>Certificate that signed the server (or its reverse proxy). Needed when the server uses a private/internal CA. This is separate from the client certificate above and is not taken from the bundle.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="161"/>
+        <source>Key password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="172"/>
+        <source>The API key is stored locally in this app&apos;s settings and is never sent anywhere except your configured Immich server. When a local URL is set, the app probes it every few seconds and uses it while available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="185"/>
+        <source>Enter your server details to load the media library.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="223"/>
+        <source>Enter an HTTP(S) Immich URL without embedded credentials.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="227"/>
+        <source>Enter an API key.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="248"/>
+        <source>Local URL must be HTTP(S) and must not contain embedded credentials.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="259"/>
+        <source>Testing connection…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="278"/>
+        <source>✓ %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="278"/>
+        <source>Could not connect: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="288"/>
+        <source>Using local endpoint: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ConnectionPage.cpp" line="289"/>
+        <source>Using remote endpoint: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::ExplorePage</name>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="145"/>
+        <source>Explore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="147"/>
+        <source>People, places, and recent media</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="152"/>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="155"/>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="156"/>
+        <source>Refresh</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="192"/>
+        <source>People</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="193"/>
+        <source>Places</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="194"/>
+        <source>Recently added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="220"/>
+        <source>← Explore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="270"/>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="1010"/>
+        <source>Load more</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="433"/>
+        <source>Loading explore…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="438"/>
+        <source>Explore could not be refreshed right now.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="486"/>
+        <source>Unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="525"/>
+        <source>%1 people · %2 places · %3 recent · offline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="529"/>
+        <source>%1 people · %2 places · %3 recent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="598"/>
+        <source>Load explore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="603"/>
+        <source>Couldn&apos;t load more: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="608"/>
+        <source>%1 failed: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="610"/>
+        <source>Couldn&apos;t load photos: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="625"/>
+        <source>No people, places, or recent media yet.
+Run face and location recognition on your Immich server, or add photos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="627"/>
+        <source>Connect to your Immich server in Settings → Immich Server
+to explore people, places, and recent media.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="633"/>
+        <source>Unknown person</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="638"/>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="659"/>
+        <source>Loading photos…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="765"/>
+        <source>Unknown date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="768"/>
+        <source>Today</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="770"/>
+        <source>Yesterday</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="792"/>
+        <source>Photos</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="806"/>
+        <source>Nothing here yet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="813"/>
+        <source>%n item(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/ExplorePage.cpp" line="1023"/>
+        <source>Loading…</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::FolderSyncService</name>
+    <message>
+        <location filename="../src/core/FolderSyncService.cpp" line="509"/>
+        <source>Folder sync is turned off.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/FolderSyncService.cpp" line="514"/>
+        <source>Choose a folder to watch for photos and videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/FolderSyncService.cpp" line="520"/>
+        <source>Sync folder does not exist: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/FolderSyncService.cpp" line="526"/>
+        <source>Connect to Immich in Settings → Immich Server first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/FolderSyncService.cpp" line="531"/>
+        <source>Waiting for Immich on the local network. Files already show in Library with an unsaved badge.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/FolderSyncService.cpp" line="538"/>
+        <source>Saving to Immich…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/FolderSyncService.cpp" line="539"/>
+        <source>Saving %1…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/core/FolderSyncService.cpp" line="544"/>
+        <source>Waiting for %n file(s) to finish copying…</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/core/FolderSyncService.cpp" line="550"/>
+        <source>Could not sync %1: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/FolderSyncService.cpp" line="557"/>
+        <source>Offline - new files will upload when Immich is reachable.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/core/FolderSyncService.cpp" line="566"/>
+        <source>Up to date with Immich (%n synced file(s)).</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::ImmichClient</name>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="431"/>
+        <source>Connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="582"/>
+        <source>Video stream</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="583"/>
+        <source>Could not start the local video stream proxy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="601"/>
+        <location filename="../src/core/ImmichClient.cpp" line="603"/>
+        <source>Play video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="603"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1514"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1599"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1623"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1694"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1886"/>
+        <source>The asset identifier is invalid.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="633"/>
+        <source>Set the Immich server URL and API key in Settings first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="657"/>
+        <source>TLS handshake failed — check your client certificate and CA certificate.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="660"/>
+        <source>Authentication failed. Check the API key and its permissions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="666"/>
+        <source>Connection test</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="667"/>
+        <source>Server URL and API key are required.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="693"/>
+        <source>local endpoint</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="693"/>
+        <source>remote endpoint</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="696"/>
+        <source>Connected via %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="697"/>
+        <source>Connected as %1 via %2.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="712"/>
+        <location filename="../src/core/ImmichClient.cpp" line="715"/>
+        <location filename="../src/core/ImmichClient.cpp" line="731"/>
+        <location filename="../src/core/ImmichClient.cpp" line="754"/>
+        <location filename="../src/core/ImmichClient.cpp" line="802"/>
+        <location filename="../src/core/ImmichClient.cpp" line="820"/>
+        <location filename="../src/core/ImmichClient.cpp" line="867"/>
+        <source>Load library</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="716"/>
+        <source>You&apos;re offline - Years/Month browsing needs a connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="757"/>
+        <source>You&apos;re offline.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="801"/>
+        <source>Check for new photos</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="803"/>
+        <location filename="../src/core/ImmichClient.cpp" line="820"/>
+        <location filename="../src/core/ImmichClient.cpp" line="867"/>
+        <source>Search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="821"/>
+        <source>You are offline and no cached library is available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="910"/>
+        <location filename="../src/core/ImmichClient.cpp" line="918"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1033"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1043"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1072"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1099"/>
+        <source>Load explore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="919"/>
+        <source>You are offline and no cached explore data is available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1112"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1201"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1883"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1915"/>
+        <source>Load image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1116"/>
+        <source>The person identifier is invalid.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1138"/>
+        <source>Offline - person photo not cached.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1162"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1944"/>
+        <source>Unsupported image format.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1261"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1360"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1369"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1385"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1391"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1467"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1478"/>
+        <source>Upload</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1358"/>
+        <source>File not found: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1367"/>
+        <source>File is empty: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1382"/>
+        <source>Could not open %1 after several tries: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1392"/>
+        <source>Could not open %1: %2 (will retry)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1468"/>
+        <source>%1 interrupted - queued for retry when online.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1475"/>
+        <source>%1: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1511"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1514"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1522"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1560"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1571"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1582"/>
+        <source>Download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1523"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1561"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1583"/>
+        <source>Could not write %1: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1691"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1694"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1733"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1743"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1751"/>
+        <source>Copy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1734"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1744"/>
+        <source>This original is larger than the 64 MB clipboard safety limit. Download it to disk instead.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1767"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1779"/>
+        <location filename="../src/core/ImmichClient.cpp" line="1800"/>
+        <source>Delete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1779"/>
+        <source>No valid asset identifiers were provided.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1835"/>
+        <source>Connect to Immich and choose an uploaded photo or video.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1839"/>
+        <source>Set a valid Immich URL in server settings first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1843"/>
+        <source>You are offline. Connect to Immich to create a share link.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="1869"/>
+        <source>Immich returned an invalid share link.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::LibraryPage</name>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="112"/>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1710"/>
+        <source>Upload</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="113"/>
+        <source>Refresh</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="114"/>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="263"/>
+        <source>Years</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="151"/>
+        <source>Photos &amp; videos</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="154"/>
+        <source>Your Immich library</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="159"/>
+        <source>Search photos and videos…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="173"/>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="174"/>
+        <source>Search settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="241"/>
+        <source>Drop photos or videos to upload</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="260"/>
+        <source>← Library</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="292"/>
+        <source>← Years</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="315"/>
+        <source>Refine your search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="322"/>
+        <source>Reset filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="342"/>
+        <source>All assets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="342"/>
+        <source>Favorites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="342"/>
+        <source>Archive</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="343"/>
+        <source>Search in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="346"/>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="507"/>
+        <source>All people</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="349"/>
+        <source>People</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="352"/>
+        <source>City</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="354"/>
+        <source>Places</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="357"/>
+        <source>Photos and videos</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="358"/>
+        <source>Photos</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="359"/>
+        <source>Videos</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="360"/>
+        <source>Media</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="364"/>
+        <source>Date range</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="368"/>
+        <source>From date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="369"/>
+        <source>To date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="376"/>
+        <source>From</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="378"/>
+        <source>To</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="387"/>
+        <source>Search by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="393"/>
+        <source>Context</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="394"/>
+        <source>File name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="395"/>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="396"/>
+        <source>Full path or folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="397"/>
+        <source>OCR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="398"/>
+        <source>Search interpretation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="509"/>
+        <source>Unnamed person</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="666"/>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1989"/>
+        <source>Loading library…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="748"/>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="790"/>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1076"/>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1234"/>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2022"/>
+        <source>%n item(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="751"/>
+        <source>Loading library… %1/%2 months</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="808"/>
+        <source>The start date must be on or before the end date.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="939"/>
+        <source>Find scenes, objects, and ideas in the visual content of your photos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="940"/>
+        <source>Match the original name of a photo or video file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="941"/>
+        <source>Search the descriptions saved with your photos and videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="942"/>
+        <source>Find media by its original full path or folder.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="943"/>
+        <source>Find words detected inside images, such as signs, receipts, and screenshots.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="964"/>
+        <source>No filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="965"/>
+        <source>%n active filter(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="982"/>
+        <source>New photo%1 found , refreshing…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="998"/>
+        <source>Loading more results…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="999"/>
+        <source>Searching with filters…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1000"/>
+        <source>Searching for “%1”…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1002"/>
+        <source>Loading more media…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1003"/>
+        <source>Loading your library…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1039"/>
+        <source>Unknown date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1043"/>
+        <source>Today</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1045"/>
+        <source>Yesterday</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1071"/>
+        <source>%n filtered result(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1072"/>
+        <source>%n result(s) for “%1”</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1074"/>
+        <source>%n cached item(s) · offline</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1298"/>
+        <source>Couldn&apos;t load library: %1. Refresh to retry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1302"/>
+        <source>Loading library… %1/%2 months (some months failed)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1336"/>
+        <source>You&apos;re offline - Years needs a connection to browse by month.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1344"/>
+        <source>Loading…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1448"/>
+        <source>%1 - you&apos;re offline, can&apos;t load months.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1459"/>
+        <source>%1 - loading…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1703"/>
+        <source>Load image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1705"/>
+        <source>Copy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1707"/>
+        <source>Copy failed: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1725"/>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2484"/>
+        <source>Upload finished: %1 ok, %2 failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1733"/>
+        <source>%1 (%2 left)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1734"/>
+        <source>Upload failed: %1 (%2 left)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1742"/>
+        <source>%1 failed: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1984"/>
+        <source>Connect to your Immich server in Settings → Immich Server
+to browse photos and videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1994"/>
+        <source>No results for these filters.
+Try different filters.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1995"/>
+        <source>No results for “%1”.
+Try a different search or filters.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="1999"/>
+        <source>No photos or videos yet.
+Drop files here, paste with Ctrl+V, or use Upload to add media.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2025"/>
+        <source>%1 · local</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2026"/>
+        <source>%1 · remote</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2041"/>
+        <source>Back online , resuming uploads…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2042"/>
+        <source>Back online , refreshing…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2047"/>
+        <source>%n item(s) · offline</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2055"/>
+        <source>%n file(s) waiting to upload</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2125"/>
+        <source>Preparing download…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2180"/>
+        <source>Download media</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2188"/>
+        <source>Downloading %1…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2195"/>
+        <source>Connect to Immich in Settings before copying.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2199"/>
+        <source>Copy works for photos , download videos instead.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2205"/>
+        <source>Copying %1…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2206"/>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2322"/>
+        <source>photo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2215"/>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2421"/>
+        <source>Connect to Immich in Settings before uploading.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2224"/>
+        <source>Clipboard has no image or media files to upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2278"/>
+        <source>Could not save clipboard image for upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2304"/>
+        <source>Could not decode image for clipboard.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2323"/>
+        <source>Copied %1 to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2342"/>
+        <source>this item</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2343"/>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2353"/>
+        <source>Delete permanently</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2343"/>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2353"/>
+        <source>Move to trash</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2345"/>
+        <source>Permanently delete %1? This cannot be undone.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2346"/>
+        <source>Move %1 to trash? You can restore it later from Immich.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2360"/>
+        <source>Deleting…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2360"/>
+        <source>Moving to trash…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2367"/>
+        <source>Deleted %n item(s).</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2368"/>
+        <source>Moved %n item(s) to trash.</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2426"/>
+        <source>Upload media</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2441"/>
+        <source>No supported media files to upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2448"/>
+        <source>Queued %n file(s) for upload when online.</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2450"/>
+        <source>Uploading %1 file(s)…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2462"/>
+        <source>Uploading %1… %2% (%3 left)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2467"/>
+        <source>Uploading %1…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2486"/>
+        <source>Already on server: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2488"/>
+        <source>Uploaded %n file(s).</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2497"/>
+        <source>Duplicate skipped: %1 (%2 left)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2498"/>
+        <source>Uploaded %1 (%2 left)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2508"/>
+        <source>Downloading… %1%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="2515"/>
+        <source>Saved to %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::MainWindow</name>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="232"/>
+        <location filename="../src/ui/MainWindow.cpp" line="447"/>
+        <source>immich</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="235"/>
+        <source>Show immich</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="237"/>
+        <source>Quit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="381"/>
+        <source>Support immich desktop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="382"/>
+        <source>If immich desktop is useful, a GitHub star helps a lot.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="384"/>
+        <source>Stars make the project easier to discover. Thanks for considering it!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="385"/>
+        <source>Star on GitHub</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="386"/>
+        <source>Maybe later</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="417"/>
+        <source>Certificate password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="418"/>
+        <source>Enter the password for your client certificate:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="434"/>
+        <source>immich - uploading</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="442"/>
+        <source>immich - downloading</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="458"/>
+        <location filename="../src/ui/MainWindow.cpp" line="467"/>
+        <source>Update available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="459"/>
+        <location filename="../src/ui/MainWindow.cpp" line="468"/>
+        <source>immich desktop v%1 is available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="470"/>
+        <source>What&apos;s new:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="474"/>
+        <source>Open the Updates page to download and install the package for this platform.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="476"/>
+        <source>Open Updates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="477"/>
+        <source>Later</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::MediaTile</name>
+    <message>
+        <location filename="../src/ui/widgets/MediaTile.cpp" line="159"/>
+        <source>…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaTile.cpp" line="301"/>
+        <source>Open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaTile.cpp" line="303"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaTile.cpp" line="305"/>
+        <source>Copy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaTile.cpp" line="306"/>
+        <source>Download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaTile.cpp" line="307"/>
+        <source>Share link…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaTile.cpp" line="309"/>
+        <source>Move to trash</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaTile.cpp" line="310"/>
+        <source>Delete permanently</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::MediaViewerDialog</name>
+    <message>
+        <location filename="../src/ui/widgets/MediaViewerDialog.cpp" line="47"/>
+        <source>Copy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaViewerDialog.cpp" line="48"/>
+        <source>Download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaViewerDialog.cpp" line="49"/>
+        <source>Share link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaViewerDialog.cpp" line="50"/>
+        <source>Move to trash</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaViewerDialog.cpp" line="52"/>
+        <source>Delete permanently</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaViewerDialog.cpp" line="53"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaViewerDialog.cpp" line="55"/>
+        <source>Show info (I)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaViewerDialog.cpp" line="56"/>
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaViewerDialog.cpp" line="57"/>
+        <source>Previous (Left arrow)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaViewerDialog.cpp" line="58"/>
+        <source>Next (Right arrow)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaViewerDialog.cpp" line="131"/>
+        <source>Preview unavailable
+%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaViewerDialog.cpp" line="161"/>
+        <source>Media preview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/MediaViewerDialog.cpp" line="169"/>
+        <source>Loading preview…</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::SettingsPage</name>
+    <message>
+        <location filename="../src/ui/pages/SettingsPage.cpp" line="26"/>
+        <source>Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SettingsPage.cpp" line="29"/>
+        <source>Choose a settings section from the sidebar.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::ShareLinkDialog</name>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="19"/>
+        <source>Create link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="20"/>
+        <source>Copy link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="24"/>
+        <source>Share media</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="29"/>
+        <source>Share with a link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="32"/>
+        <source>Photo or video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="36"/>
+        <source>The link uses your Immich URL from server settings, even when the app is connected locally.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="40"/>
+        <source>Password (optional)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="43"/>
+        <source>Share link password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="45"/>
+        <source>Leave empty to share without a password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="49"/>
+        <source>Show password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="60"/>
+        <source>Share link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="61"/>
+        <source>Create a link to share this media…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="85"/>
+        <source>Creating your share link…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="97"/>
+        <source>Link ready. A password is required to view this media.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="98"/>
+        <source>Link ready. Anyone with the link can view this media.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="112"/>
+        <source>Link copied. Share the password separately.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ShareLinkDialog.cpp" line="113"/>
+        <source>Link copied to clipboard.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::Sidebar</name>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="23"/>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="97"/>
+        <source>Collapse</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="48"/>
+        <source>fan-made
+immich desktop  ·  %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="97"/>
+        <source>Expand</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="98"/>
+        <source>Expand sidebar (F9)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="99"/>
+        <source>Collapse sidebar (F9)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::SummaryTile</name>
+    <message numerus="yes">
+        <location filename="../src/ui/widgets/SummaryTile.cpp" line="89"/>
+        <source>%n item(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::SyncFolderPage</name>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="27"/>
+        <source>Watch folders and upload new media</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="29"/>
+        <source>Upload only when Immich is available on the local network</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="31"/>
+        <source>Scan now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="38"/>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="39"/>
+        <source>Add another folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="56"/>
+        <source>Folder sync</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="59"/>
+        <source>Choose folders on this computer. Photos and videos dropped into them (including subfolders) are uploaded to Immich automatically on Windows, macOS, and Linux. Files stay on disk after upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="72"/>
+        <source>Uses your Local URL from Immich Server settings. Files still appear in Library with an unsaved badge until the local server is reachable.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="75"/>
+        <source>Folders</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="99"/>
+        <source>Status icons: saved · saving · unsaved · error saving</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="118"/>
+        <source>Saved</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="119"/>
+        <source>Saving</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="120"/>
+        <source>Unsaved</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="121"/>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="166"/>
+        <source>Choose sync folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="195"/>
+        <source>Add sync folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="231"/>
+        <source>Sync folder path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="232"/>
+        <source>Choose a folder to sync…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="236"/>
+        <source>Browse…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="237"/>
+        <source>Open folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="243"/>
+        <location filename="../src/ui/pages/SyncFolderPage.cpp" line="244"/>
+        <source>Remove folder from sync</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::TopBar</name>
+    <message>
+        <location filename="../src/ui/widgets/TopBar.cpp" line="87"/>
+        <source>  Update available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/TopBar.cpp" line="88"/>
+        <source>  Update to v%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/TopBar.cpp" line="89"/>
+        <source>Open the Updates page</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::UpdateManager</name>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="167"/>
+        <source>No downloadable update package was found for this platform.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="178"/>
+        <source>The update package has an unsafe file name.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="186"/>
+        <source>Unable to create the update download directory.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="200"/>
+        <source>Unable to create the update package file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="244"/>
+        <source>Unable to refresh the Snap package. Try: snap refresh %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="253"/>
+        <source>The update package has not been downloaded yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="261"/>
+        <source>Unable to launch the update installer.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="299"/>
+        <source>Update check failed: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="341"/>
+        <source>The update package exceeded its advertised size.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="347"/>
+        <source>Unable to write the downloaded package.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="373"/>
+        <source>Download failed: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="380"/>
+        <source>The update package file is unavailable.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="388"/>
+        <source>The update package size did not match the release metadata.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="395"/>
+        <source>Unable to finalize the downloaded package.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="420"/>
+        <source>The update server returned an unexpected response.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="429"/>
+        <source>The latest release does not include a version tag.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="477"/>
+        <source>No compatible installer was published for this platform.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="498"/>
+        <source>The selected update package has an unsafe file name.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="507"/>
+        <source>The selected update package has an untrusted download URL.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/UpdateManager.cpp" line="511"/>
+        <source>The selected update package has an invalid size.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::UpdatesPage</name>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="30"/>
+        <source>Check for updates automatically</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="31"/>
+        <source>Refresh</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="32"/>
+        <source>Update</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="41"/>
+        <source>Updates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="46"/>
+        <source>Current version: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="50"/>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="53"/>
+        <source>Current version: v%1 (Snap)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="99"/>
+        <source>Enjoying immich desktop?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="102"/>
+        <source>A GitHub star helps others find this unofficial client and supports continued work.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="108"/>
+        <source>Star on GitHub</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="112"/>
+        <source>Maybe later</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="153"/>
+        <source>%p%  ·  %1 / %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="195"/>
+        <source>Updates for this installation are provided by your package manager.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="226"/>
+        <source>Press Refresh to check the Snap Store for updates.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="227"/>
+        <source>Press Refresh to check for updates.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="232"/>
+        <source>Checking the Snap Store for updates…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="233"/>
+        <source>Checking for updates…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="239"/>
+        <source>You&apos;re up to date with the Snap Store.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="240"/>
+        <source>You&apos;re up to date.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="246"/>
+        <source>Snap Store update available: v%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="247"/>
+        <source>Update available: v%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="251"/>
+        <source>Downloading v%1…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="255"/>
+        <source>Installing v%1…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="259"/>
+        <source>Download complete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="262"/>
+        <source>Installing update…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/UpdatesPage.cpp" line="267"/>
+        <source>Update failed: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::VideoPlayerWidget</name>
+    <message>
+        <location filename="../src/ui/widgets/VideoPlayerWidget.cpp" line="49"/>
+        <location filename="../src/ui/widgets/VideoPlayerWidget.cpp" line="219"/>
+        <source>Play (Space)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/VideoPlayerWidget.cpp" line="50"/>
+        <location filename="../src/ui/widgets/VideoPlayerWidget.cpp" line="220"/>
+        <source>Play</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/VideoPlayerWidget.cpp" line="61"/>
+        <location filename="../src/ui/widgets/VideoPlayerWidget.cpp" line="73"/>
+        <source>Volume</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/VideoPlayerWidget.cpp" line="126"/>
+        <source>Buffering…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/VideoPlayerWidget.cpp" line="134"/>
+        <source>Playback finished</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/VideoPlayerWidget.cpp" line="144"/>
+        <source>Video playback failed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/VideoPlayerWidget.cpp" line="182"/>
+        <source>Could not start the video stream.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/VideoPlayerWidget.cpp" line="219"/>
+        <source>Pause (Space)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/VideoPlayerWidget.cpp" line="220"/>
+        <source>Pause</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Aurora::ZoomSlider</name>
+    <message>
+        <location filename="../src/ui/widgets/ZoomSlider.cpp" line="28"/>
+        <source>Smaller thumbnails (Ctrl+−)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ZoomSlider.cpp" line="29"/>
+        <source>Larger thumbnails (Ctrl++)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ZoomSlider.cpp" line="34"/>
+        <source>Thumbnail size (Ctrl+scroll)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/ZoomSlider.cpp" line="35"/>
+        <source>Thumbnail size</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>AutoStart</name>
+    <message>
+        <location filename="../src/core/AutoStart.cpp" line="94"/>
+        <source>Autostart is not supported on this platform.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/AutoStart.cpp" line="110"/>
+        <source>Could not update Windows startup settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/AutoStart.cpp" line="119"/>
+        <source>Could not remove autostart entry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/AutoStart.cpp" line="129"/>
+        <source>Could not create autostart entry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>I18n</name>
+    <message>
+        <location filename="../src/core/I18n.cpp" line="65"/>
+        <source>Follow system</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="2037"/>
+        <source>The server returned an image larger than 32 MB.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="2045"/>
+        <source>Authentication failed. Check the API key and its permissions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/core/ImmichClient.cpp" line="2078"/>
+        <source>Unsupported image format.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/AboutPage.cpp" line="196"/>
+        <source>Copied!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/ui/pages/LibraryPage.cpp" line="85"/>
+        <source>Media files (*.jpg *.jpeg *.png *.gif *.webp *.heic *.heif *.tif *.tiff *.bmp *.raw *.dng *.cr2 *.nef *.arw *.mp4 *.mov *.m4v *.avi *.mkv *.webm *.3gp);;All files (*.*)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+</TS>
