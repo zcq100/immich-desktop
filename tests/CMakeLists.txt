@@ -53,4 +53,8 @@ target_link_libraries(AppSettingsTest PRIVATE
     Qt6::Test
 )
 
+if(WIN32)
+    target_link_libraries(AppSettingsTest PRIVATE crypt32)
+endif()
+
 add_test(NAME AppSettingsTest COMMAND AppSettingsTest)
