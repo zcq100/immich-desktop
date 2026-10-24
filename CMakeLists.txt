@@ -14,7 +14,7 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
 find_package(Qt6 6.2 REQUIRED COMPONENTS
-    Core Gui Multimedia MultimediaWidgets Network Svg Widgets
+    Core Gui Multimedia MultimediaWidgets Network Svg Widgets LinguistTools
 )
 
 set(IMMICH_GITHUB_REPO "hdmain/immich-desktop" CACHE STRING
@@ -36,6 +36,8 @@ set(IMMICH_SOURCES
     src/main.cpp
     src/core/AppSettings.cpp
     src/core/AppSettings.h
+    src/core/I18n.cpp
+    src/core/I18n.h
     src/core/AutoStart.cpp
     src/core/AutoStart.h
     src/core/FolderSyncService.cpp
@@ -173,13 +175,43 @@ if(WIN32)
 
     add_custom_command(TARGET immich POST_BUILD
         COMMAND "${WINDEPLOYQT_EXECUTABLE}"
-            --no-translations
             --compiler-runtime
             "$<TARGET_FILE:immich>"
         COMMENT "Deploying Qt runtime libraries"
         VERBATIM
     )
 endif()
+
+set(IMMICH_TRANSLATIONS_DIR "${CMAKE_CURRENT_SOURCE_DIR}/translations")
+set(IMMICH_QM_DIR "${CMAKE_CURRENT_BINARY_DIR}/i18n")
+set(IMMICH_QM_FILE "${IMMICH_QM_DIR}/immich_zh_CN.qm")
+
+add_custom_command(
+    OUTPUT "${IMMICH_QM_FILE}"
+    COMMAND "${CMAKE_COMMAND}" -E make_directory "${IMMICH_QM_DIR}"
+    COMMAND Qt6::lrelease "${IMMICH_TRANSLATIONS_DIR}/immich_zh_CN.ts"
+            -qm "${IMMICH_QM_FILE}"
+    DEPENDS Qt6::lrelease "${IMMICH_TRANSLATIONS_DIR}/immich_zh_CN.ts"
+    COMMENT "Compiling translation immich_zh_CN.qm"
+    VERBATIM
+)
+set_source_files_properties("${IMMICH_QM_FILE}" PROPERTIES GENERATED TRUE)
+
+add_custom_target(immich_lrelease DEPENDS "${IMMICH_QM_FILE}")
+
+qt_add_resources(immich "immich_translations"
+    PREFIX "/i18n"
+    BASE "${IMMICH_QM_DIR}"
+    FILES "${IMMICH_QM_FILE}"
+)
+
+add_custom_target(update_translations
+    COMMAND Qt6::lupdate -locations absolute -target-language zh_CN
+            "${CMAKE_CURRENT_SOURCE_DIR}/src"
+            -ts "${IMMICH_TRANSLATIONS_DIR}/immich_zh_CN.ts"
+    COMMENT "Updating translations"
+    VERBATIM
+)
 
 set_target_properties(immich PROPERTIES OUTPUT_NAME "${IMMICH_EXECUTABLE_NAME}")
 if(NOT IMMICH_ENABLE_UPDATER)
@@ -221,6 +253,15 @@ if(WIN32)
                 endif()
             endif()
         endforeach()
+
+        file(GLOB runtime_translations \"\${runtime_dir}/translations/*.qm\")
+        if(runtime_translations)
+            file(INSTALL
+                DESTINATION \"\${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_BINDIR}/translations\"
+                TYPE FILE
+                FILES \${runtime_translations}
+            )
+        endif()
     ")
 endif()
 

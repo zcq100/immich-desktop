@@ -2,6 +2,7 @@
 
 #include "core/AppSettings.h"
 #include "core/AutoStart.h"
+#include "core/I18n.h"
 #include "core/ThemeManager.h"
 #include "ui/pages/LibraryPage.h"
 #include "ui/IconUtils.h"
@@ -15,6 +16,7 @@
 #include <QFrame>
 #include <QGridLayout>
 #include <QLabel>
+#include <QLocale>
 #include <QMessageBox>
 #include <QPushButton>
 #include <QPainter>
@@ -94,11 +96,10 @@ AppearancePage::AppearancePage(ThemeManager *themeManager, QWidget *parent)
     root->setContentsMargins(4, 6, 4, 4);
     root->setSpacing(8);
 
-    auto *heading = new QLabel(QStringLiteral("Appearance"), this);
+    auto *heading = new QLabel(tr("Appearance"), this);
     heading->setProperty("heading", true);
     auto *subheading = new QLabel(
-        QStringLiteral("Choose a preset or build a palette that belongs to your product."),
-        this);
+        tr("Choose a preset or build a palette that belongs to your product."), this);
     subheading->setProperty("subheading", true);
     root->addWidget(heading);
     root->addWidget(subheading);
@@ -112,14 +113,31 @@ AppearancePage::AppearancePage(ThemeManager *themeManager, QWidget *parent)
     contentRoot->setContentsMargins(0, 0, 8, 0);
     contentRoot->setSpacing(14);
 
+    QVBoxLayout *languageLayout = nullptr;
+    auto *languageCard = sectionCard(
+        tr("Language"),
+        tr("Choose the language used by the interface. A restart is required after changing it."),
+        content, &languageLayout);
+    m_languageCombo = new QComboBox(languageCard);
+    m_languageCombo->setObjectName(QStringLiteral("languageCombo"));
+    m_languageCombo->setAccessibleName(tr("Language"));
+    for (const auto language : {I18n::AppLanguage::System, I18n::AppLanguage::English,
+                                I18n::AppLanguage::SimplifiedChinese}) {
+        m_languageCombo->addItem(I18n::displayName(language), I18n::languageKey(language));
+    }
+    m_languageCombo->setCurrentIndex(m_languageCombo->findData(
+        I18n::languageKey(AppSettings().loadLanguage().language)));
+    languageLayout->addWidget(m_languageCombo, 0, Qt::AlignLeft);
+    contentRoot->addWidget(languageCard);
+
     QVBoxLayout *presetLayout = nullptr;
     auto *presetCard = sectionCard(
-        QStringLiteral("Theme preset"),
-        QStringLiteral("Preset changes are applied immediately and saved automatically."),
+        tr("Theme preset"),
+        tr("Preset changes are applied immediately and saved automatically."),
         content, &presetLayout);
-    m_themeCombo->addItem(QStringLiteral("Light"), static_cast<int>(ThemePreset::Light));
-    m_themeCombo->addItem(QStringLiteral("Dark"), static_cast<int>(ThemePreset::Dark));
-    m_themeCombo->addItem(QStringLiteral("Custom"), static_cast<int>(ThemePreset::Custom));
+    m_themeCombo->addItem(tr("Light"), static_cast<int>(ThemePreset::Light));
+    m_themeCombo->addItem(tr("Dark"), static_cast<int>(ThemePreset::Dark));
+    m_themeCombo->addItem(tr("Custom"), static_cast<int>(ThemePreset::Custom));
     presetLayout->addWidget(m_themeCombo, 0, Qt::AlignLeft);
     contentRoot->addWidget(presetCard);
 
@@ -152,23 +170,23 @@ AppearancePage::AppearancePage(ThemeManager *themeManager, QWidget *parent)
 
     QVBoxLayout *paletteLayout = nullptr;
     auto *paletteCard = sectionCard(
-        QStringLiteral("Custom palette"),
-        QStringLiteral("Choosing a color automatically activates the Custom theme."),
+        tr("Custom palette"),
+        tr("Choosing a color automatically activates the Custom theme."),
         content, &paletteLayout);
     auto *colorGrid = new QGridLayout;
     colorGrid->setSpacing(10);
-    colorGrid->addWidget(new ColorButton(QStringLiteral("Background"), ColorRole::Background,
+    colorGrid->addWidget(new ColorButton(tr("Background"), ColorRole::Background,
                                          themeManager, paletteCard), 0, 0);
-    colorGrid->addWidget(new ColorButton(QStringLiteral("Panels"), ColorRole::Panel,
+    colorGrid->addWidget(new ColorButton(tr("Panels"), ColorRole::Panel,
                                          themeManager, paletteCard), 0, 1);
-    colorGrid->addWidget(new ColorButton(QStringLiteral("Buttons"), ColorRole::Button,
+    colorGrid->addWidget(new ColorButton(tr("Buttons"), ColorRole::Button,
                                          themeManager, paletteCard), 1, 0);
-    colorGrid->addWidget(new ColorButton(QStringLiteral("Accent"), ColorRole::Accent,
+    colorGrid->addWidget(new ColorButton(tr("Accent"), ColorRole::Accent,
                                          themeManager, paletteCard), 1, 1);
     colorGrid->setColumnStretch(0, 1);
     colorGrid->setColumnStretch(1, 1);
     paletteLayout->addLayout(colorGrid);
-    auto *reset = new QPushButton(QStringLiteral("Reset custom colors"), paletteCard);
+    auto *reset = new QPushButton(tr("Reset custom colors"), paletteCard);
     reset->setCursor(Qt::PointingHandCursor);
     configureActionButton(reset, QStringLiteral(":/icons/refresh-cw.svg"));
     paletteLayout->addWidget(reset, 0, Qt::AlignLeft);
@@ -262,6 +280,27 @@ AppearancePage::AppearancePage(ThemeManager *themeManager, QWidget *parent)
     scroll->setWidget(content);
     root->addWidget(scroll, 1);
 
+    connect(m_languageCombo, &QComboBox::currentIndexChanged, this, [this](int index) {
+        const auto language =
+            I18n::languageFromKey(m_languageCombo->itemData(index).toString());
+        LanguageSettings settings;
+        settings.language = language;
+        AppSettings().saveLanguage(settings);
+        // Only English and Simplified Chinese exist, so compare whether the
+        // effective UI language is Chinese rather than exact locale names:
+        // QLocale().name() may be e.g. "de_DE" while System still renders English.
+        const bool currentChinese = QLocale().name().startsWith(QStringLiteral("zh"));
+        const bool targetChinese =
+            I18n::resolveLocaleName(language) == QStringLiteral("zh_CN");
+        if (currentChinese == targetChinese)
+            return;
+        QMessageBox box(this);
+        box.setAttribute(Qt::WA_StyledBackground, true);
+        box.setIcon(QMessageBox::Information);
+        box.setWindowTitle(tr("Language"));
+        box.setText(tr("Restart immich to apply the language change."));
+        box.exec();
+    });
     connect(m_themeCombo, &QComboBox::currentIndexChanged, this, [this](int index) {
         m_themeManager->setPreset(
             static_cast<ThemePreset>(m_themeCombo->itemData(index).toInt()));

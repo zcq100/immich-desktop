@@ -10,6 +10,9 @@
 *.snap
 *.exe
 
+# Generated translations (translations/*.ts is committed)
+*.qm
+
 # IDEs / tooling
 /.vs/
 /.vscode/

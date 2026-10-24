@@ -29,6 +29,7 @@ private:
     void saveCompactGrid(bool enabled);
 
     ThemeManager *m_themeManager;
+    QComboBox *m_languageCombo = nullptr;
     QComboBox *m_themeCombo;
     QComboBox *m_iconPackCombo = nullptr;
     QCheckBox *m_minimalistUi = nullptr;

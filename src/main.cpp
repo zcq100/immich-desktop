@@ -2,6 +2,7 @@
 #include "core/AppSettings.h"
 #include "core/AutoStart.h"
 #include "core/FolderSyncService.h"
+#include "core/I18n.h"
 #include "core/ImmichClient.h"
 #include "core/SingleInstance.h"
 #include "core/ThemeManager.h"
@@ -46,6 +47,8 @@ int main(int argc, char *argv[])
 
     application.setWindowIcon(Aurora::applicationIcon());
     application.setStyle(QStyleFactory::create(QStringLiteral("Fusion")));
+
+    Aurora::I18n::installTranslators(Aurora::AppSettings().loadLanguage().language);
 
     Aurora::SingleInstance singleInstance(QStringLiteral("immich-desktop"));
     if (singleInstance.activateExistingInstance())
