@@ -31,7 +31,7 @@
         <message>
             <location filename="../src/ui/pages/AboutPage.cpp" line="114" />
             <source>Built and maintained by the Immich Desktop community, led by &lt;a href="https://github.com/hdmain"&gt;hdmain&lt;/a&gt;. Major contributor: &lt;a href="https://github.com/gardar"&gt;gardar&lt;/a&gt; (viewer navigation, zoomable grids, collapsible sidebar, info panel, and more). Contributions, bug reports, and ideas are welcome on GitHub.</source>
-            <translation>由 Immich Desktop 社区构建和维护，领头人是 &lt;a href="https://github.com/hdmain"&gt;hdmain&lt;/a&gt;。主要贡献者：&lt;a href="https://github.com/gardar"&gt;gardar&lt;/a&gt;（查看器导航、可缩放网格、可折叠侧边栏、信息面板等）。欢迎在 GitHub 上提交贡献、错误报告和想法。</translation>
+            <translation>由 Immich Desktop 社区构建和维护，由 &lt;a href="https://github.com/hdmain"&gt;hdmain&lt;/a&gt; 领导。主要贡献者：&lt;a href="https://github.com/gardar"&gt;gardar&lt;/a&gt;（查看器导航、可缩放网格、可折叠侧边栏、信息面板等）。欢迎在 GitHub 上提交贡献、错误报告和想法。</translation>
         </message>
         <message>
             <location filename="../src/ui/pages/AboutPage.cpp" line="128" />
@@ -447,7 +447,7 @@
         <message>
             <location filename="../src/ui/pages/ConnectionPage.cpp" line="80" />
             <source>Optional - e.g. http://192.168.1.10:2283</source>
-            <translation>可选 - 例如 http://192.168.1.10:2283</translation>
+            <translation>可选，例如 http://192.168.1.10:2283</translation>
         </message>
         <message>
             <location filename="../src/ui/pages/ConnectionPage.cpp" line="83" />
@@ -482,7 +482,7 @@
         <message>
             <location filename="../src/ui/pages/ConnectionPage.cpp" line="127" />
             <source>PKCS#12 bundles (*.p12 *.pfx)</source>
-            <translation>PKCS#12 捆绑包（*.p12 *.pfx）</translation>
+            <translation>PKCS#12 证书包（*.p12 *.pfx）</translation>
         </message>
         <message>
             <location filename="../src/ui/pages/ConnectionPage.cpp" line="130" />
@@ -648,12 +648,12 @@
         <message>
             <location filename="../src/ui/pages/ExplorePage.cpp" line="525" />
             <source>%1 people · %2 places · %3 recent · offline</source>
-            <translation>%1 位人物 · %2 个地点 · %3 项最近 · 离线</translation>
+            <translation>%1 位人物 · %2 个地点 · %3 项最近添加 · 离线</translation>
         </message>
         <message>
             <location filename="../src/ui/pages/ExplorePage.cpp" line="529" />
             <source>%1 people · %2 places · %3 recent</source>
-            <translation>%1 位人物 · %2 个地点 · %3 项最近</translation>
+            <translation>%1 位人物 · %2 个地点 · %3 项最近添加</translation>
         </message>
         <message>
             <location filename="../src/ui/pages/ExplorePage.cpp" line="598" />
@@ -686,7 +686,7 @@ Run face and location recognition on your Immich server, or add photos.</source>
             <location filename="../src/ui/pages/ExplorePage.cpp" line="627" />
             <source>Connect to your Immich server in Settings → Immich Server
 to explore people, places, and recent media.</source>
-            <translation>在设置 → 服务器中连接到你的 Immich 服务器
+            <translation>在设置 → Immich 服务器中连接到你的 Immich 服务器
 即可探索人物、地点和最近添加的媒体。</translation>
         </message>
         <message>
@@ -758,7 +758,7 @@ to explore people, places, and recent media.</source>
         <message>
             <location filename="../src/core/FolderSyncService.cpp" line="526" />
             <source>Connect to Immich in Settings → Immich Server first.</source>
-            <translation>请先在设置 → 服务器中连接到 Immich。</translation>
+            <translation>请先在设置 → Immich 服务器中连接到 Immich。</translation>
         </message>
         <message>
             <location filename="../src/core/FolderSyncService.cpp" line="531" />
@@ -790,7 +790,7 @@ to explore people, places, and recent media.</source>
         <message>
             <location filename="../src/core/FolderSyncService.cpp" line="557" />
             <source>Offline - new files will upload when Immich is reachable.</source>
-            <translation>离线 - 当 Immich 可达时将上传新文件。</translation>
+            <translation>离线：当 Immich 可访问时将上传新文件。</translation>
         </message>
         <message numerus="yes">
             <location filename="../src/core/FolderSyncService.cpp" line="566" />
@@ -841,7 +841,7 @@ to explore people, places, and recent media.</source>
         <message>
             <location filename="../src/core/ImmichClient.cpp" line="657" />
             <source>TLS handshake failed — check your client certificate and CA certificate.</source>
-            <translation>TLS 握手失败 - 请检查客户端证书和 CA 证书。</translation>
+            <translation>TLS 握手失败，请检查客户端证书和 CA 证书。</translation>
         </message>
         <message>
             <location filename="../src/core/ImmichClient.cpp" line="660" />
@@ -892,7 +892,7 @@ to explore people, places, and recent media.</source>
         <message>
             <location filename="../src/core/ImmichClient.cpp" line="716" />
             <source>You're offline - Years/Month browsing needs a connection.</source>
-            <translation>当前离线 - 按年/月浏览需要网络连接。</translation>
+            <translation>当前离线：按年/月浏览需要网络连接。</translation>
         </message>
         <message>
             <location filename="../src/core/ImmichClient.cpp" line="757" />
@@ -947,7 +947,7 @@ to explore people, places, and recent media.</source>
         <message>
             <location filename="../src/core/ImmichClient.cpp" line="1138" />
             <source>Offline - person photo not cached.</source>
-            <translation>离线 - 人物照片未缓存。</translation>
+            <translation>离线：人物照片未缓存。</translation>
         </message>
         <message>
             <location filename="../src/core/ImmichClient.cpp" line="1162" />
@@ -989,7 +989,7 @@ to explore people, places, and recent media.</source>
         <message>
             <location filename="../src/core/ImmichClient.cpp" line="1468" />
             <source>%1 interrupted - queued for retry when online.</source>
-            <translation>%1 已中断 - 已排队，待联网后重试。</translation>
+            <translation>%1 已中断，已排队，待联网后重试。</translation>
         </message>
         <message>
             <location filename="../src/core/ImmichClient.cpp" line="1475" />
@@ -1395,7 +1395,7 @@ to explore people, places, and recent media.</source>
         <message>
             <location filename="../src/ui/pages/LibraryPage.cpp" line="1336" />
             <source>You're offline - Years needs a connection to browse by month.</source>
-            <translation>当前离线 - 按月份浏览“年份”需要网络连接。</translation>
+            <translation>当前离线——“年份”视图需要联网才能按月份浏览。</translation>
         </message>
         <message>
             <location filename="../src/ui/pages/LibraryPage.cpp" line="1344" />
@@ -1405,12 +1405,12 @@ to explore people, places, and recent media.</source>
         <message>
             <location filename="../src/ui/pages/LibraryPage.cpp" line="1448" />
             <source>%1 - you're offline, can't load months.</source>
-            <translation>%1 - 当前离线，无法加载月份。</translation>
+            <translation>%1：当前离线，无法加载月份。</translation>
         </message>
         <message>
             <location filename="../src/ui/pages/LibraryPage.cpp" line="1459" />
             <source>%1 - loading…</source>
-            <translation>%1 - 正在加载…</translation>
+            <translation>%1：正在加载…</translation>
         </message>
         <message>
             <location filename="../src/ui/pages/LibraryPage.cpp" line="1703" />
@@ -1452,7 +1452,7 @@ to explore people, places, and recent media.</source>
             <location filename="../src/ui/pages/LibraryPage.cpp" line="1984" />
             <source>Connect to your Immich server in Settings → Immich Server
 to browse photos and videos.</source>
-            <translation>在设置 → 服务器中连接到你的 Immich 服务器
+            <translation>在设置 → Immich 服务器中连接到你的 Immich 服务器
 即可浏览照片和视频。</translation>
         </message>
         <message>
@@ -1575,7 +1575,7 @@ Drop files here, paste with Ctrl+V, or use Upload to add media.</source>
         <message>
             <location filename="../src/ui/pages/LibraryPage.cpp" line="2342" />
             <source>this item</source>
-            <translation>此项目</translation>
+            <translation>此媒体项</translation>
         </message>
         <message>
             <location filename="../src/ui/pages/LibraryPage.cpp" line="2343" />
@@ -1744,12 +1744,12 @@ Drop files here, paste with Ctrl+V, or use Upload to add media.</source>
         <message>
             <location filename="../src/ui/MainWindow.cpp" line="434" />
             <source>immich - uploading</source>
-            <translation>immich - 正在上传</translation>
+            <translation>immich：正在上传</translation>
         </message>
         <message>
             <location filename="../src/ui/MainWindow.cpp" line="442" />
             <source>immich - downloading</source>
-            <translation>immich - 正在下载</translation>
+            <translation>immich：正在下载</translation>
         </message>
         <message>
             <location filename="../src/ui/MainWindow.cpp" line="458" />
@@ -2044,7 +2044,7 @@ immich desktop  ·  %1</translation>
         <message>
             <location filename="../src/ui/pages/SyncFolderPage.cpp" line="27" />
             <source>Watch folders and upload new media</source>
-            <translation>监视文件夹并上传新媒体</translation>
+            <translation>监视文件夹并上传新增的媒体文件</translation>
         </message>
         <message>
             <location filename="../src/ui/pages/SyncFolderPage.cpp" line="29" />
@@ -2060,7 +2060,7 @@ immich desktop  ·  %1</translation>
             <location filename="../src/ui/pages/SyncFolderPage.cpp" line="38" />
             <location filename="../src/ui/pages/SyncFolderPage.cpp" line="39" />
             <source>Add another folder</source>
-            <translation>添加其他文件夹</translation>
+            <translation>添加另一个文件夹</translation>
         </message>
         <message>
             <location filename="../src/ui/pages/SyncFolderPage.cpp" line="56" />
@@ -2232,7 +2232,7 @@ immich desktop  ·  %1</translation>
         <message>
             <location filename="../src/core/UpdateManager.cpp" line="395" />
             <source>Unable to finalize the downloaded package.</source>
-            <translation>无法完成下载的安装包。</translation>
+            <translation>无法完成已下载安装包的收尾处理。</translation>
         </message>
         <message>
             <location filename="../src/core/UpdateManager.cpp" line="420" />
