@@ -113,7 +113,8 @@
     </message>
     <message>
         <location filename="../src/ui/pages/AppearancePage.cpp" line="118"/>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="299"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="123"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="300"/>
         <source>Language</source>
         <translation>语言</translation>
     </message>
@@ -123,218 +124,218 @@
         <translation>选择界面使用的语言。更改后需要重启。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="134"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="135"/>
         <source>Theme preset</source>
         <translation>主题预设</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="135"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="136"/>
         <source>Preset changes are applied immediately and saved automatically.</source>
         <translation>预设更改立即生效并自动保存。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="137"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="138"/>
         <source>Light</source>
         <translation>浅色</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="138"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="139"/>
         <source>Dark</source>
         <translation>深色</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="139"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="140"/>
         <source>Custom</source>
         <translation>自定义</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="144"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="145"/>
         <source>Icons and interface</source>
         <translation>图标与界面</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="145"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="146"/>
         <source>Choose an icon pack and simplify action buttons. Changes are applied immediately and saved automatically.</source>
         <translation>选择图标包并简化操作按钮。更改立即生效并自动保存。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="147"/>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="150"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="148"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="151"/>
         <source>Icon pack</source>
         <translation>图标包</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="152"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="153"/>
         <source>Lucide (default)</source>
         <translation>Lucide（默认）</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="153"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="154"/>
         <source>Tabler</source>
         <translation>Tabler</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="154"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="155"/>
         <source>Bootstrap Icons</source>
         <translation>Bootstrap Icons</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="158"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="159"/>
         <source>Preview: upload, library, settings</source>
         <translation>预览：上传、媒体库、设置</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="160"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="161"/>
         <source>Minimalist UI (icons instead of button labels)</source>
         <translation>极简界面（用图标代替按钮文字）</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="164"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="165"/>
         <source>Navigation and action buttons use icons. Hover over an icon to see its action.</source>
         <translation>导航和操作按钮使用图标。悬停图标可查看其功能。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="172"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="173"/>
         <source>Custom palette</source>
         <translation>自定义调色板</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="173"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="174"/>
         <source>Choosing a color automatically activates the Custom theme.</source>
         <translation>选择颜色会自动激活自定义主题。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="177"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="178"/>
         <source>Background</source>
         <translation>背景</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="179"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="180"/>
         <source>Panels</source>
         <translation>面板</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="181"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="182"/>
         <source>Buttons</source>
         <translation>按钮</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="183"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="184"/>
         <source>Accent</source>
         <translation>强调色</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="188"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="189"/>
         <source>Reset custom colors</source>
         <translation>重置自定义颜色</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="196"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="197"/>
         <source>Desktop</source>
         <translation>桌面</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="197"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="198"/>
         <source>Control how immich behaves on your desktop and at sign-in.</source>
         <translation>控制 immich 在桌面和登录时的行为。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="205"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="206"/>
         <source>Closing the window keeps immich running in the tray. Press Ctrl+Q to quit.</source>
         <translation>关闭窗口后 immich 会继续在托盘中运行。按 Ctrl+Q 可退出。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="206"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="207"/>
         <source>System tray is not available on this desktop.</source>
         <translation>此桌面环境不支持系统托盘。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="209"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="210"/>
         <source>Autostart is not supported on this platform.</source>
         <translation>此平台不支持自动启动。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="216"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="217"/>
         <source>Playback</source>
         <translation>播放</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="217"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="218"/>
         <source>Control preview and playback behavior.</source>
         <translation>控制预览和播放行为。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="219"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="220"/>
         <source>Enable video hover preview</source>
         <translation>启用视频悬停预览</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="222"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="223"/>
         <source>Plays a short muted clip when you hover a video tile. Disable this if hovering causes freezes or stutter.</source>
         <translation>悬停视频缩略图时播放一段短静音片段。如果悬停导致卡顿或掉帧，请禁用此功能。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="233"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="234"/>
         <source>Note: the Snap build runs confined, so hover preview is disabled in the Snap. If video playback doesn&apos;t work from the Snap, install the GitHub release (&lt;a href=&quot;https://github.com/hdmain/immich-desktop/releases&quot;&gt;.deb / AppImage&lt;/a&gt;) , it uses your system&apos;s GStreamer/FFmpeg without confinement.</source>
         <translation>注意：Snap 版本运行在受限环境中，因此悬停预览在 Snap 中被禁用。如果 Snap 中无法播放视频，请安装 GitHub 发行版（&lt;a href=&quot;https://github.com/hdmain/immich-desktop/releases&quot;&gt;.deb / AppImage&lt;/a&gt;），它会在不受限制的情况下使用你系统的 GStreamer/FFmpeg。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="242"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="243"/>
         <source>Hover preview is unavailable in the Snap build.</source>
         <translation>Snap 版本不支持悬停预览。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="248"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="249"/>
         <source>Timeline</source>
         <translation>时间线</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="249"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="250"/>
         <source>Choose how your library is laid out.</source>
         <translation>选择媒体库的布局方式。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="251"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="252"/>
         <source>Compact grid (no date headers)</source>
         <translation>紧凑网格（无日期标题）</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="254"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="255"/>
         <source>Uniform square thumbnails packed edge to edge, like a phone&apos;s photo grid, instead of date-grouped rows of varying sizes.</source>
         <translation>统一的正方形缩略图边缘紧贴排列，类似手机的照片网格，而非按日期分组、大小不一的行。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="265"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="266"/>
         <source>Cache</source>
         <translation>缓存</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="266"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="267"/>
         <source>Local storage used for thumbnails and offline library data.</source>
         <translation>用于缩略图和离线媒体库数据的本地存储。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="270"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="271"/>
         <source>Refresh</source>
         <translation>刷新</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="300"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="301"/>
         <source>Restart immich to apply the language change.</source>
         <translation>重启 immich 以应用语言更改。</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="335"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="336"/>
         <source>Cache size: %1</source>
         <translation>缓存大小：%1</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="352"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="353"/>
         <source>Autostart</source>
         <translation>自动启动</translation>
     </message>
     <message>
-        <location filename="../src/ui/pages/AppearancePage.cpp" line="354"/>
+        <location filename="../src/ui/pages/AppearancePage.cpp" line="355"/>
         <source>Could not update autostart settings.</source>
         <translation>无法更新自动启动设置。</translation>
     </message>
@@ -1793,6 +1794,41 @@ Drop files here, paste with Ctrl+V, or use Upload to add media.</source>
         <translation>退出</translation>
     </message>
     <message>
+        <location filename="../src/ui/MainWindow.cpp" line="316"/>
+        <source>Library</source>
+        <translation>媒体库</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="319"/>
+        <source>Explore</source>
+        <translation>探索</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="324"/>
+        <source>Settings / Immich Server</source>
+        <translation>设置 / Immich 服务器</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="327"/>
+        <source>Settings / Folder Sync</source>
+        <translation>设置 / 文件夹同步</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="330"/>
+        <source>Settings / Appearance</source>
+        <translation>设置 / 外观</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="333"/>
+        <source>Settings / Update</source>
+        <translation>设置 / 更新</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/MainWindow.cpp" line="336"/>
+        <source>Settings / About</source>
+        <translation>设置 / 关于</translation>
+    </message>
+    <message>
         <location filename="../src/ui/MainWindow.cpp" line="381"/>
         <source>Support immich desktop</source>
         <translation>支持 immich desktop</translation>
@@ -2114,6 +2150,61 @@ immich desktop  ·  %1</translation>
         <source>Collapse sidebar (F9)</source>
         <translation>折叠侧边栏（F9）</translation>
     </message>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="165"/>
+        <source>NAVIGATION</source>
+        <translation>导航</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="167"/>
+        <source>Library</source>
+        <translation>媒体库</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="169"/>
+        <source>Explore</source>
+        <translation>探索</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="171"/>
+        <source>Settings</source>
+        <translation>设置</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="183"/>
+        <source>SETTINGS</source>
+        <translation>设置</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="185"/>
+        <source>Immich Server</source>
+        <translation>Immich 服务器</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="187"/>
+        <source>Folder Sync</source>
+        <translation>文件夹同步</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="189"/>
+        <source>Appearance</source>
+        <translation>外观</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="191"/>
+        <source>Update</source>
+        <translation>更新</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="193"/>
+        <source>About</source>
+        <translation>关于</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/widgets/Sidebar.cpp" line="195"/>
+        <source>Back</source>
+        <translation>返回</translation>
+    </message>
 </context>
 <context>
     <name>Aurora::SummaryTile</name>
@@ -2232,6 +2323,11 @@ immich desktop  ·  %1</translation>
 </context>
 <context>
     <name>Aurora::TopBar</name>
+    <message>
+        <location filename="../src/ui/widgets/TopBar.cpp" line="22"/>
+        <source>Overview</source>
+        <translation>概览</translation>
+    </message>
     <message>
         <location filename="../src/ui/widgets/TopBar.cpp" line="87"/>
         <source>  Update available</source>
