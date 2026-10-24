@@ -148,7 +148,7 @@ Ways to help right now: bug fixes, UX polish, Immich API coverage (albums, shari
 
 ## Building from source
 
-Requires CMake 3.21+ and Qt 6.2+ (Core, Gui, Widgets, Network, Svg, Multimedia, LinguistTools).
+Requires CMake 3.21+ and Qt 6.2+ (Core, Gui, Widgets, Network, Svg, Multimedia, MultimediaWidgets, LinguistTools).
 The Linguist tools (`lupdate` / `lrelease`) are needed to compile the bundled translations:
 `qt6-tools-dev qt6-l10n-tools qt6-tools-dev-tools` on Debian/Ubuntu or `qt6-tools` on Arch Linux.
 Install `qt6-imageformats` (or your distro's equivalent) at runtime so WebP thumbnails can be decoded.

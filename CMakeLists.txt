@@ -253,6 +253,15 @@ if(WIN32)
                 endif()
             endif()
         endforeach()
+
+        file(GLOB runtime_translations \"\${runtime_dir}/translations/*.qm\")
+        if(runtime_translations)
+            file(INSTALL
+                DESTINATION \"\${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_BINDIR}/translations\"
+                TYPE FILE
+                FILES \${runtime_translations}
+            )
+        endif()
     ")
 endif()
 
