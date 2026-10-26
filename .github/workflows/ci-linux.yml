@@ -1,0 +1,123 @@
+name: Build main (Linux amd64)
+
+# This workflow lives only on the `ci` branch. `main` is kept as a pristine
+# mirror of upstream, so its CI cannot live on main itself. Every run checks
+# out the current `main` commit and publishes the packages as temporary
+# artifacts instead of a GitHub release.
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - ci
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-linux-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  # linuxdeploy needs to extract itself; FUSE is unavailable on hosted runners.
+  APPIMAGE_EXTRACT_AND_RUN: "1"
+  LINUXDEPLOY_ARCH: x86_64
+  OUTPUT: immich-desktop-x86_64.AppImage
+
+jobs:
+  linux:
+    name: Linux amd64 packages
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Report the built commit
+        id: main
+        run: |
+          sha="$(git rev-parse HEAD)"
+          short="${sha:0:7}"
+          echo "Building main at $sha"
+          echo "sha=$sha" >> "$GITHUB_OUTPUT"
+          echo "short=$short" >> "$GITHUB_OUTPUT"
+
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential \
+            cmake \
+            file \
+            libfuse2 \
+            libgl1-mesa-dev \
+            libqt6svg6-dev \
+            ninja-build \
+            patchelf \
+            qt6-base-dev \
+            qt6-base-dev-tools \
+            qt6-tools-dev \
+            qt6-tools-dev-tools \
+            qt6-l10n-tools \
+            qt6-translations-l10n \
+            qt6-image-formats-plugins \
+            qt6-multimedia-dev \
+            wget
+
+      - name: Configure
+        run: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: cmake --build build --parallel
+
+      - name: Test
+        env:
+          QT_QPA_PLATFORM: offscreen
+        run: ctest --test-dir build --output-on-failure
+
+      - name: Create Debian package
+        run: |
+          mkdir -p dist
+          cpack --config build/CPackConfig.cmake -G DEB -B dist
+
+      - name: Create AppImage
+        run: |
+          cmake --install build --prefix "$PWD/AppDir/usr"
+          wget -q \
+            "https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-${LINUXDEPLOY_ARCH}.AppImage"
+          wget -q \
+            "https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-${LINUXDEPLOY_ARCH}.AppImage"
+          chmod +x "linuxdeploy-${LINUXDEPLOY_ARCH}.AppImage" "linuxdeploy-plugin-qt-${LINUXDEPLOY_ARCH}.AppImage"
+          export PATH="$PWD:$PATH"
+          if [ -x /usr/lib/qt6/bin/qmake ]; then
+            export QMAKE=/usr/lib/qt6/bin/qmake
+          fi
+          "./linuxdeploy-${LINUXDEPLOY_ARCH}.AppImage" \
+            --appdir AppDir \
+            --executable AppDir/usr/bin/immich \
+            --desktop-file AppDir/usr/share/applications/immich-desktop.desktop \
+            --icon-file AppDir/usr/share/icons/hicolor/512x512/apps/immich-desktop.png \
+            --plugin qt \
+            --output appimage
+          # linuxdeploy may still emit a desktop-derived name; normalize to $OUTPUT.
+          if [ ! -f "$OUTPUT" ]; then
+            generated="$(ls -1 ./*-"${LINUXDEPLOY_ARCH}".AppImage 2>/dev/null | head -1 || true)"
+            if [ -n "$generated" ]; then
+              mv "$generated" "$OUTPUT"
+            fi
+          fi
+          test -f "$OUTPUT"
+          mv "$OUTPUT" dist/
+
+      - name: Upload packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: immich-desktop-linux-amd64-${{ steps.main.outputs.short }}
+          path: |
+            dist/*.deb
+            dist/*.AppImage
+          if-no-files-found: error
+          retention-days: 14
