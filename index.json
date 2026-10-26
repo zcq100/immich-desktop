@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "sourceRevision": "82ecb09fe465e829c778071d537f548720191745",
+  "sourceRevision": "141dce5395713e05d69ab9189d54adb4b7bb9036",
   "catalogs": {
     "de": {
-      "sha256": "6aec096183cd30419d7a817c26c756d554e3af1d6bfed256f2d096b67b889ba9",
-      "size": 16551
+      "sha256": "64cebf4dcf7095faec7b9e3ef8f25b8b3a7963d921fdc7e37e9a9ad48b4fd3cf",
+      "size": 16491
     },
     "en": {
-      "sha256": "bfafdae59289fcd25c98417e0648b74c5fe2a282df0f1d21f1161324bad52d7c",
-      "size": 77406
+      "sha256": "d09dcdf4e61bbad34bd950528e293d1edf235e4b7a762dab446095d7fbcd54ec",
+      "size": 82367
     },
     "fr": {
-      "sha256": "cecbfb36aa6d4693d7b6fcfa93c60e422bf195d1dea60378f5306eb6dcfd52f6",
-      "size": 16769
+      "sha256": "8407e96380f80ff7b54ccb6836b8cd02627ac88c2790a5122108cbdd73f2dc81",
+      "size": 16709
     },
     "pl": {
-      "sha256": "8ea74e6758e9b06e14ed11e64f44d90d4f7963c820a9fe367259363b1bb0398b",
-      "size": 84917
+      "sha256": "460fdb68581f25377a81873a1709aa85e1cf1a8cebfcc88dcb2bc5968df1228a",
+      "size": 83724
     },
     "zh_CN": {
-      "sha256": "b7351ea7f876d9aa15d5157f3da63e45beb785dcd1ae9e96651adb47461a07f0",
-      "size": 58029
+      "sha256": "35ba5299e03ded8e0dd9ef3260e69c981a2f584a2cd8fe36d28626d811101cc4",
+      "size": 57146
     }
   }
 }
