@@ -48,10 +48,17 @@ jobs:
       - name: Install build dependencies
         run: |
           sudo apt-get update
+          # gstreamer1.0-* provide the decodebin/playback plugins bundled into
+          # the AppImage below; Qt Multimedia needs them at runtime.
           sudo apt-get install -y \
             build-essential \
             cmake \
             file \
+            gstreamer1.0-gl \
+            gstreamer1.0-libav \
+            gstreamer1.0-plugins-bad \
+            gstreamer1.0-plugins-base \
+            gstreamer1.0-plugins-good \
             libfuse2 \
             libgl1-mesa-dev \
             libqt6svg6-dev \
@@ -83,6 +90,17 @@ jobs:
           mkdir -p dist
           cpack --config build/CPackConfig.cmake -G DEB -B dist
 
+      - name: Fetch linuxdeploy GStreamer plugin
+        run: |
+          # The AppImage must ship GStreamer plugins. Without them Qt 6.2.4's
+          # QGstreamerMediaPlayer dereferences a NULL decodebin and segfaults
+          # on distros whose plugin directory differs from the build host.
+          # Pinned to a commit and verified by checksum.
+          url="https://raw.githubusercontent.com/linuxdeploy/linuxdeploy-plugin-gstreamer/432af639725bc8b99df12351e86bb2e8a6b3585f/linuxdeploy-plugin-gstreamer.sh"
+          wget -q -O linuxdeploy-plugin-gstreamer.sh "$url"
+          echo "d1cf90701047aa9583c274bb66dd82db352255374fbfb8f3c4c89a05fe23bce0  linuxdeploy-plugin-gstreamer.sh" | sha256sum -c -
+          chmod +x linuxdeploy-plugin-gstreamer.sh
+
       - name: Create AppImage
         run: |
           cmake --install build --prefix "$PWD/AppDir/usr"
@@ -101,6 +119,7 @@ jobs:
             --desktop-file AppDir/usr/share/applications/immich-desktop.desktop \
             --icon-file AppDir/usr/share/icons/hicolor/512x512/apps/immich-desktop.png \
             --plugin qt \
+            --plugin gstreamer \
             --output appimage
           # linuxdeploy may still emit a desktop-derived name; normalize to $OUTPUT.
           if [ ! -f "$OUTPUT" ]; then
